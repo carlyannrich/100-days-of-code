@@ -186,8 +186,66 @@ var myVerb = "ran";
 var myAdverb = "quickly";
 var wordBlanks = "The " + myNoun + " was " + myAdjective + " and " + myVerb + " very " + myAdverb;
 
+//multiple values stored in one variable using js arrays
+var myArray = ['Cherry', 20];
 
+//nest one array within another
+var myArray = [['Dog', 1], ['Cat', 0]];
 
+//access array data with indexes
+var myArray = [50,60,70];
+var myData = myArray[0];
+
+//modify array data with indexes note that arrays are mutable and can be changed freely, unlike strings
+var myArray = [18,64,99];
+myArray[0] = 45;
+
+// access multi-dimensional arrays with indexes, change myData value to 8 from arrays
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+var myData = myArray[2][1];
+
+// manipulate arrays with .push() - this takes one or more elements and pushes them onto the end of array
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(['dog', 3]);
+
+// manipulate arrays with .pop() - this takes the last element and pops it off the end of an array
+var myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray = myArray.pop();
+console.log(myArray); // console shows ["John", 23]
+console.log(removedFromMyArray); // console shows ["cat", 2]
+
+//manipulate arrays with .shift() - this takes the first element and shifts it off the array
+var myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray = myArray.shift();
+
+//manipulate arrays with .unshift() - this adds a element to the start of the array
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+// create a shopping list
+var myList = [["Chocolate", 15],
+["Pizza", 2],
+["Chips", 1],
+["Bread", 3],
+["Sweets", 30],
+["Cheese", 2],
+["Jam", 1]
+];
+
+// write reusable js with functions (example prints 'Hello World' to the console log)
+function reusableFunction() {
+console.log('Hello World');
+}
+reusableFunction();
+
+// passing values to functions with arguments
+function functionWithArgs(param1, param2) {
+    console.log(param1 + param2);
+}
+
+functionWithArgs(1, 2);
+functionWithArgs(7, 9);
 
 
 

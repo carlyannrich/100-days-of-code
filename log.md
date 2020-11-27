@@ -1,30 +1,186 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+Day 1: 27/11/2020
+**Today's Progress**: Confirmed github email for git _at last_. Began the freeCodeCamp js curriculum.
+**Thoughts:**
+**Link to work:**
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Day 2: 28/11/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Day 3: 29/11/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Link to work:** [Calculator App](http://www.example.com)
+Day 4: 30/11/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+Day 5: 31/11/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+Day 6: 01/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+Day 7: 02/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+Day 8: 03/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
+Day 9: 04/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-### Day 1: June 27, Monday
+Day 10: 05/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+Day 11: 06/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+Day 12: 07/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
 
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+Day 13: 08/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 14: 09/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 15: 10/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 16: 11/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 17: 12/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 18: 13/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 19: 14/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 20: 15/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 21: 16/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 22: 17/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 23: 18/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 24: 19/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 25: 20/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 26: 21/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 27: 22/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 28: 23/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 29: 24/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 30: 25/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 31: 26/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 32: 27/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 33: 28/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 34: 29/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 35: 30/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 36: 31/12/2020
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 37: 01/01/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**

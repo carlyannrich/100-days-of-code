@@ -791,3 +791,228 @@ according to the card's value (see table). The function will then return a strin
 Bet if the count is positive, or Hold if the count is zero or negative. The current count and the player's decision
 (Bet or Hold) should be separated by a single space.
 */
+var count = 0;
+function cc(card) {
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count--;
+      break;
+  }
+  if (count > 0) {
+    return count + " Bet";
+  } else {
+    return count + " Hold";
+  }
+}
+cc(2);
+cc(3);
+cc(7);
+cc("K");
+cc("A");
+
+// build js objects.
+// Objects are similar to arrays, except that instead of using indexes to access and modify their data,
+// you access the data in objects through what are called properties.
+var myDog = {
+  name: "Cheerio",
+  legs: 10,
+  tails: 0,
+  friends: ["Shreddie", "Weeto", "Weetabix"],
+};
+
+// There are two ways of accessing object properties, dot notation and bracket notation
+// accessing object properties with dot notation
+var testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
+};
+var hatValue = testObj.hat;
+var shirtValue = testObj.shirt;
+
+// accessing object properties with bracket notation
+// if the property of the object has a space in its name you will need to use bracket notation
+// Note that property names with spaces in them must be in quotes (single or double).
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water",
+};
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
+
+// accessing object properties with variables
+// example 1:
+var dogs = {
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle",
+};
+var myDog = "Hunter";
+var myBreed = dogs[myDog];
+console.log(myBreed); // "Doberman"
+// example 2:
+var someObj = {
+  propName: "John",
+};
+function propPrefix(str) {
+  var s = "prop";
+  return s + str;
+}
+var someProp = propPrefix("Name"); // someProp now holds the value 'propName'
+console.log(someObj[someProp]); // "John"
+// Note that we do not use quotes around the variable name when using it to
+// access the property because we are using the value of the variable, not the name.
+// Set the playerNumber variable to 16. Then, use the variable to look up the player's name and assign it to player.
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas",
+};
+var playerNumber = 16;
+var player = testObj[playerNumber];
+
+// updating object properties, can use dot or bracket notation to update
+// example: ourDog.name = "Happy Camper"; or ourDog["name"] = "Happy Camper";
+var myDog = {
+  name: "Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+myDog.name = "Happy Coder"; // or
+myDog["name"] = "Happy Coder";
+
+// add new properties to a js object, can use dot or bracket notation to add
+// ourDog.bark = "bow-wow"; or ourDog["bark"] = "bow-wow";
+var myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+myDog.bark = "woof";
+
+// delete properties from a js object, can use dot or bracket notation to delete
+var myDog = {
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+  bark: "woof",
+};
+delete myDog.tails;
+delete myDog["tails"];
+
+// using objects for lookups
+// Objects can be thought of as a key/value storage, like a dictionary.
+//Convert the switch statement into an object called lookup.
+// Use it to look up val and assign the associated string to the result variable.
+// Switch statement:
+function phoneticLookup(val) {
+  var result = "";
+  switch (val) {
+    case "alpha":
+      result = "Adams";
+      break;
+    case "bravo":
+      result = "Boston";
+      break;
+    case "charlie":
+      result = "Chicago";
+      break;
+    case "delta":
+      result = "Denver";
+      break;
+    case "echo":
+      result = "Easy";
+      break;
+    case "foxtrot":
+      result = "Frank";
+  }
+  return result;
+}
+phoneticLookup("charlie");
+// changed to object lookup below:
+function phoneticLookup(val) {
+  var result = "";
+  var lookup = {
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+  };
+
+  result = lookup[val];
+  return result;
+}
+phoneticLookup("charlie");
+
+// testing objects for properties, checking whether objects have certain properties
+// can use the .hasOwnProperty(propname) method of objects to determine if that object has the given property name.
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else return "Not Found";
+  // Only change code above this line
+}
+
+// manipulating complex objects - objects allow for arbitrary combinations of strings, numbers, booleans, arrays, functions, and objects.
+var myMusic = [
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
+  {
+    artist: "MSF",
+    title: "Coding the day away",
+    release_year: 2020,
+    formats: ["CD", "LP"],
+  },
+  // Add a record here
+];
+// Accessing Nested Objects
+// The sub-properties of objects can be accessed by chaining together the dot or bracket notation.
+var myStorage = {
+  car: {
+    inside: {
+      "glove box": "maps",
+      "passenger seat": "crumbs",
+    },
+    outside: {
+      trunk: "jack",
+    },
+  },
+};
+var gloveBoxContents = myStorage.car.inside["glove box"];
+
+// accessing nested arrays
+// Similar to accessing nested objects, Array bracket notation can be chained to access nested arrays.
+var myPlants = [
+  {
+    type: "flowers",
+    list: ["rose", "tulip", "dandelion"],
+  },
+  {
+    type: "trees",
+    list: ["fir", "pine", "birch"],
+  },
+];
+var secondTree = myPlants[1].list[1];

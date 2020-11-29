@@ -1,17 +1,17 @@
 # 100 Days Of Code - Log
 
 Day 1: 27/11/2020
-**Today's Progress**: Confirmed github email for git _at last_. Began the freeCodeCamp js curriculum.
+**Today's Progress**: Confirmed github email for git _at last_. Began the freeCodeCamp js curriculum. nearly 50% through
 **Thoughts:**
 **Link to work:**
 
 Day 2: 28/11/2020
-**Today's Progress**:
+**Today's Progress**: 72% through FCC js basics
 **Thoughts:**
 **Link to work:**
 
 Day 3: 29/11/2020
-**Today's Progress**:
+**Today's Progress**: 82% through FCC js basics
 **Thoughts:**
 **Link to work:**
 

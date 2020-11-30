@@ -1016,3 +1016,135 @@ var myPlants = [
   },
 ];
 var secondTree = myPlants[1].list[1];
+
+//  Record collection
+/* You start with an updateRecords function that takes an object like collection, an id, a prop (like artist or tracks), 
+and a value. Complete the function using the rules below to modify the object passed to the function.
+
+Your function must always return the entire object.
+If prop isn't tracks and value isn't an empty string, update or set that album's prop to value.
+If prop is tracks but the album doesn't have a tracks property, create an empty array and add value to it.
+If prop is tracks and value isn't an empty string, add value to the end of the album's existing tracks array.
+If value is an empty string, delete the given prop property from the album.*/
+var collection = {
+  2548: {
+    albumTitle: "Slippery When Wet",
+    artist: "Bon Jovi",
+    tracks: ["Let It Rock", "You Give Love a Bad Name"],
+  },
+  2468: {
+    albumTitle: "1999",
+    artist: "Prince",
+    tracks: ["1999", "Little Red Corvette"],
+  },
+  1245: {
+    artist: "Robert Palmer",
+    tracks: [],
+  },
+  5439: {
+    albumTitle: "ABBA Gold",
+  },
+};
+function updateRecords(object, id, prop, value) {
+  if (prop !== "tracks" && value !== "") {
+    object[id][prop] = value;
+  } else if (prop === "tracks" && !object[id].hasOwnProperty("tracks")) {
+    object[id][prop] = [value];
+  } else if (prop === "tracks" && value !== "") {
+    object[id][prop].push(value);
+  } else if (value === "") {
+    delete object[id][prop];
+  }
+  return object;
+}
+updateRecords(collection, 5439, "artist", "ABBA");
+
+// Iterate with js While loops, can run the same code multiple times whilst using a loop
+// a while loop runs "while" a specified condition is true and stops once that condition is no longer true.
+// example below, the while loop will execute 5 times and append the numbers 0 through 4 to ourArray.
+var ourArray = [];
+var i = 0;
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+// Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
+var myArray = [];
+var i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+// Iterate with js For loops
+// The most common type of JavaScript loop is called a for loop because it runs "for" a specific number of times.
+/*
+For loops are declared with three optional expressions separated by semicolons:
+for ([initialization]; [condition]; [final-expression])
+
+The initialization statement is executed one time only before the loop starts. 
+It is typically used to define and setup your loop variable.
+
+The condition statement is evaluated at the beginning of every loop iteration and will continue as long as it evaluates to true. 
+When condition is false at the start of the iteration, the loop will stop executing. This means if condition starts as false, 
+your loop will never execute.
+
+The final-expression is executed at the end of each loop iteration, 
+prior to the next condition check and is usually used to increment or decrement your loop counter.
+*/
+var myArray = [];
+for (var i = 1; i <= 5; i++) {
+  myArray.push(i);
+}
+
+// iterate odd numbers with a For loop - increment by 2
+var myArray = [];
+for (var i = 1; i <= 9; i += 2) {
+  myArray.push(i);
+}
+
+// count backwards with a For loop
+var myArray = [];
+for (var i = 9; i >= 1; i -= 2) {
+  myArray.push(i);
+}
+
+// iterate through an array with a For loop
+// This code will output each element of the array arr to the console
+// arrays have zero based indexing so the last index of the array is length - 1
+var myArr = [2, 3, 4, 5, 6];
+var total = 0;
+for (var i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+
+// nesting For loops
+// If you have a multi-dimensional array,
+// you can use the same logic as the prior waypoint to loop through both the array and any sub-arrays. Example:
+var arr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+for (var i = 0; i < arr.length; i++) {
+  for (var j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
+// Modify function multiplyAll so that it returns the product of all the numbers in the sub-arrays of arr.
+function multiplyAll(arr) {
+  var product = 1;
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
+      product = product * arr[i][j];
+    }
+  }
+  return product;
+}
+multiplyAll([
+  [1, 2],
+  [3, 4],
+  [5, 6, 7],
+]);
+// iterate with js Do...While loops
+// do...while loop - will first do one pass of the code inside the loop no matter what,
+// and then continue to run the loop while the specified condition evaluates to true.

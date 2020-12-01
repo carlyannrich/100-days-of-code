@@ -1148,3 +1148,174 @@ multiplyAll([
 // iterate with js Do...While loops
 // do...while loop - will first do one pass of the code inside the loop no matter what,
 // and then continue to run the loop while the specified condition evaluates to true.
+var myArray = [];
+var i = 10;
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
+
+// replace loops using recursion
+// example: multiply the first n elements of an array to create the product of those elements
+function multiply(arr, n) {
+  if (n <= 0) {
+    return 1;
+  } else {
+    return multiply(arr, n - 1) * arr[n - 1];
+  }
+}
+
+//  add the first n elements of an array to create the product of those elements
+function sum(arr, n) {
+  if (n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
+}
+console.log(sum([2, 3, 4, 5], 3));
+
+// profile lookup, We have an array of objects representing different people in our contacts lists.
+var contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+function lookUpProfile(name, prop) {
+  for (var i = 0; i < contacts.length; i++) {
+    if (name === contacts[i].firstName) {
+      if (contacts[i].hasOwnProperty(prop)) {
+        return contacts[i][prop];
+      } else {
+        return "No such property";
+      }
+    }
+  }
+  return "No such contact";
+}
+lookUpProfile("Akira", "likes");
+
+// Basic JavaScript: Generate Random Fractions with JavaScript
+// JavaScript has a Math.random() function that generates a random decimal number between 0 (inclusive) and not quite up to 1 (exclusive).
+//  Thus Math.random() can return a 0 but never quite return a 1
+function randomFraction() {
+  return Math.random();
+}
+// Generate Random Whole Numbers with JavaScript
+// another function, Math.floor() can round the number down to its nearest whole number
+function randomWholeNum() {
+  return Math.floor(Math.random() * 10);
+}
+
+// Generate Random Whole Numbers within a Range
+function randomRange(myMin, myMax) {
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+}
+console.log(randomRange(10, 20));
+console.log(randomRange(10, 20));
+console.log(randomRange(10, 20));
+console.log(randomRange(10, 20));
+console.log(randomRange(10, 20));
+
+// Use the parseInt Function
+// The parseInt() function parses a string and returns an integer. Here's an example: var a = parseInt("007");
+function convertToInteger(str) {
+  var parsed = parseInt(str);
+  return parsed;
+}
+convertToInteger("56");
+
+// Use the parseInt Function with a Radix
+/*
+The parseInt() function parses a string and returns an integer. It takes a second argument for the radix,
+ which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
+The function call looks like:
+  parseInt(string, radix);
+And here's an example:
+  var a = parseInt("11", 2);
+The radix variable says that "11" is in the binary system, or base 2. This example converts the string "11" to an integer 3.
+*/
+// Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it.
+function convertToInteger(str, radix) {
+  var radix = 2;
+  return parseInt(str, radix);
+}
+convertToInteger("10011");
+
+// Use the Conditional (Ternary) Operator
+// can be used as a one line if-else expression. The syntax is: condition ? expression-if-true : expression-if-false;
+// example:
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater";
+}
+// Use the conditional operator in the checkEqual function to check if two numbers are equal or not.
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);
+
+// Use Multiple Conditional (Ternary) Operators, You can chain them together to check for multiple conditions.
+// example is a equal to b? return if true / is a greater than b? return if true / else return if false
+function findGreaterOrEqual(a, b) {
+  return a === b
+    ? "a and b are equal"
+    : a > b
+    ? "a is greater"
+    : "b is greater";
+}
+// It is considered best practice to format multiple conditional operators such that each condition is on a separate line.
+// In the checkSign function, use multiple conditional operators to check if a number is positive, negative or zero.
+// The function should return "positive", "negative" or "zero".
+function checkSign(num) {
+  return num > 0 ? "positive" : num < 0 ? "negative" : "zero"; // not saving in format shown because of prettier atm
+}
+checkSign(10);
+
+// Use Recursion to Create a Countdown
+function countdown(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = countdown(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
+}
+
+// Use Recursion to Create a Range of Numbers
+// The function should return an array of integers which begins with a number represented by the startNum parameter
+//  and ends with a number represented by the endNum parameter. The starting number will always be less than or equal
+//   to the ending number. Your function must use recursion by calling itself and not use loops of any kind.
+//    It should also work for cases where both startNum and endNum are the same.
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return [startNum];
+  } else {
+    var rangeArray = rangeOfNumbers(startNum, endNum - 1);
+    rangeArray.push(endNum);
+    return rangeArray;
+  }
+}
+console.log(rangeOfNumbers(2, 4));

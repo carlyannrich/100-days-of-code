@@ -16,12 +16,12 @@ Day 3: 29/11/2020
 **Link to work:**
 
 Day 4: 30/11/2020
-**Today's Progress**:
+**Today's Progress**: 90% through FCC js basics
 **Thoughts:**
 **Link to work:**
 
 Day 5: 31/11/2020
-**Today's Progress**:
+**Today's Progress**: Completed FCC js basics!!
 **Thoughts:**
 **Link to work:**
 

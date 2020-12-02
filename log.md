@@ -26,7 +26,7 @@ Day 5: 31/11/2020
 **Link to work:**
 
 Day 6: 01/12/2020
-**Today's Progress**:
+**Today's Progress**: Started the Odin Project
 **Thoughts:**
 **Link to work:**
 

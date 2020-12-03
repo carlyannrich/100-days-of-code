@@ -31,7 +31,7 @@ Day 6: 01/12/2020
 **Link to work:**
 
 Day 7: 02/12/2020
-**Today's Progress**:
+**Today's Progress**: Onto TheOdinProj fundamentals part 2, also doing MDN and javascript.info tutorials. Read up on let/const vs var.
 **Thoughts:**
 **Link to work:**
 

@@ -17,3 +17,26 @@ console.log(b);
 const max = 57;
 let actual = max - 13;
 let percentage = actual / max;
+
+function troubleshooting() {
+  const a = 1;
+  const b = 1;
+
+  return a + b;
+
+  number = Number(prompt("enter a number"));
+
+  function numberChecker() {
+    if (number >= 10) {
+      return true;
+    } else if (number < 10) {
+      return false;
+    }
+  }
+}
+
+const a = 1 + 8;
+const b = 22 * 3;
+const c = 5 % 4;
+const d = a - 17;
+const e = a + b + c + d;

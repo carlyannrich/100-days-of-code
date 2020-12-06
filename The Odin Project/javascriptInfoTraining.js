@@ -181,3 +181,54 @@ result = prompt(title); //opens a modal window in the browser with input field
 result = confirm(question); //opens a modal window in the browser with a question and ok/cancel options
 let isBoss = confirm("Are you the boss?");
 alert(isBoss); // true if OK is pressed
+
+let x = 1;
+x = -x;
+alert(x); // -1, unary negation was applied
+
+let x = 1,
+  y = 3;
+alert(y - x); // 2, binary minus subtracts values
+
+// Addition +,
+// Subtraction -,
+// Multiplication *,
+// Division /,
+// Remainder %,
+// Exponentiation **.
+
+alert(5 % 2); // 1, a remainder of 5 divided by 2
+alert(8 % 3); // 2, a remainder of 8 divided by 3
+
+alert(2 ** 2); // 4  (2 multiplied by itself 2 times)
+alert(2 ** 3); // 8  (2 * 2 * 2, 3 times)
+alert(2 ** 4); // 16 (2 * 2 * 2 * 2, 4 times)
+
+let s = "my" + "string";
+alert(s); // mystring
+alert("1" + 2); // "12"
+alert(2 + "1"); // "21"
+alert(2 + 2 + "1"); // "41" and not "221"
+alert(6 - "2"); // 4, converts '2' to a number
+alert("6" / "2"); // 3, converts both operands to numbers
+
+let n = 2;
+n = n + 5;
+n = n * 2;
+// This notation can be shortened using the operators += and *=:
+let n = 2;
+n += 5; // now n = 7 (same as n = n + 5)
+n *= 2; // now n = 14 (same as n = n * 2)
+alert(n); // 14
+
+let n = 2;
+n *= 3 + 5;
+alert(n); // 16  (right part evaluated first, same as n *= 8)
+
+let counter = 2;
+counter++; // works the same as counter = counter + 1, but is shorter
+alert(counter); // 3
+
+let counter = 2;
+counter--; // works the same as counter = counter - 1, but is shorter
+alert(counter); // 1

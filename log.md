@@ -20,167 +20,162 @@ Day 4: 30/11/2020
 **Thoughts:**
 **Link to work:**
 
-Day 5: 31/11/2020
+Day 5: 01/12/2020
 **Today's Progress**: Completed FCC js basics!!
 **Thoughts:**
 **Link to work:**
 
-Day 6: 01/12/2020
+Day 6: 02/12/2020
 **Today's Progress**: Started the Odin Project
 **Thoughts:**
 **Link to work:**
 
-Day 7: 02/12/2020
+Day 7: 03/12/2020
 **Today's Progress**: Onto TheOdinProj fundamentals part 2, also doing MDN and javascript.info tutorials. Read up on let/const vs var.
 **Thoughts:**
 **Link to work:**
 
-Day 8: 03/12/2020
+Day 8: 04/12/2020
+**Today's Progress**: carried on with javascript.info training
+**Thoughts:**
+**Link to work:**
+
+Day 9: 05/12/2020
+**Today's Progress**: carried on with javascript.info training
+**Thoughts:**
+**Link to work:**
+
+Day 10: 06/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 9: 04/12/2020
+Day 11: 07/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 10: 05/12/2020
+Day 12: 08/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 11: 06/12/2020
+Day 13: 09/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 12: 07/12/2020
+Day 14: 10/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 13: 08/12/2020
+Day 15: 11/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 14: 09/12/2020
+Day 16: 12/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 15: 10/12/2020
+Day 17: 13/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 16: 11/12/2020
+Day 18: 14/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 17: 12/12/2020
+Day 19: 15/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 18: 13/12/2020
+Day 20: 16/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 19: 14/12/2020
+Day 21: 17/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 20: 15/12/2020
+Day 22: 18/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 21: 16/12/2020
+Day 23: 19/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 22: 17/12/2020
+Day 24: 20/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 23: 18/12/2020
+Day 25: 21/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 24: 19/12/2020
+Day 26: 22/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 25: 20/12/2020
+Day 27: 23/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 26: 21/12/2020
+Day 28: 24/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 27: 22/12/2020
+Day 29: 25/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 28: 23/12/2020
+Day 30: 26/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 29: 24/12/2020
+Day 31: 27/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 30: 25/12/2020
+Day 32: 28/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 31: 26/12/2020
+Day 33: 29/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 32: 27/12/2020
+Day 34: 30/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 33: 28/12/2020
+Day 35: 31/12/2020
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 34: 29/12/2020
-**Today's Progress**:
-**Thoughts:**
-**Link to work:**
-
-Day 35: 30/12/2020
-**Today's Progress**:
-**Thoughts:**
-**Link to work:**
-
-Day 36: 31/12/2020
-**Today's Progress**:
-**Thoughts:**
-**Link to work:**
-
-Day 37: 01/01/2021
+Day 36: 01/01/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**

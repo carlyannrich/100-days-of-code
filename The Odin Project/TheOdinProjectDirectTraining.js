@@ -40,3 +40,43 @@ const b = 22 * 3;
 const c = 5 % 4;
 const d = a - 17;
 const e = a + b + c + d;
+
+// Write a function called add7 that takes one number and returns that number + 7.
+
+function add7(oneNumber) {
+  return oneNumber + 7;
+}
+
+// Write a function called multiply that takes 2 numbers and returns their product.
+
+function multiply(number1, number2) {
+  return number1 * number2;
+}
+
+// Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+
+function capitalize(sentence) {
+  return sentence.charAt(0).toUpperCase() + sentence.slice(1);
+}
+
+// Write a function called lastLetter that takes a string and returns the very last letter of that string:
+// lastLetter("abcd") should return "d"
+
+function lastLetter(str) {
+  return str.substr(-1);
+}
+// fizz buzz program
+
+let answer = parseInt(prompt("Enter number"));
+
+for (let i = 1; i <= answer; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}

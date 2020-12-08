@@ -46,17 +46,17 @@ Day 9: 05/12/2020
 **Link to work:**
 
 Day 10: 06/12/2020
-**Today's Progress**:
+**Today's Progress**: The Odin Project training
 **Thoughts:**
 **Link to work:**
 
 Day 11: 07/12/2020
-**Today's Progress**:
+**Today's Progress**: Rock Paper Scissors game
 **Thoughts:**
 **Link to work:**
 
 Day 12: 08/12/2020
-**Today's Progress**:
+**Today's Progress**: Rock Paper Scissors game
 **Thoughts:**
 **Link to work:**
 

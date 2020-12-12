@@ -61,22 +61,22 @@ Day 12: 08/12/2020
 **Link to work:**
 
 Day 13: 09/12/2020
-**Today's Progress**:
+**Today's Progress**: started ES6 training on FCC.
 **Thoughts:**
 **Link to work:**
 
 Day 14: 10/12/2020
-**Today's Progress**:
+**Today's Progress**:Added html/css to game logic of rock paper scissors
 **Thoughts:**
 **Link to work:**
 
 Day 15: 11/12/2020
-**Today's Progress**:
+**Today's Progress**: 25% of ES6 training completed on FCC.
 **Thoughts:**
 **Link to work:**
 
 Day 16: 12/12/2020
-**Today's Progress**:
+**Today's Progress**: 52% of ES6 training completed on FCC.
 **Thoughts:**
 **Link to work:**
 

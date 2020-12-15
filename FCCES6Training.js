@@ -427,3 +427,235 @@ class SpaceShuttle {
   }
 }
 const zeus = new SpaceShuttle("Jupiter");
+// challenge - this creates a model of an object 'Vegetable'
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+const carrot = new Vegetable("carrot");
+console.log(carrot.name); // Should display 'carrot'
+
+// ES6: Use getters and setters to Control Access to an Object
+// You can obtain values from an object and set the value of a property within an object.
+/*
+Getter functions are meant to simply return (get) the value of an object's private variable to the user 
+without the user directly accessing the private variable.
+Setter functions are meant to modify (set) the value of an object's private variable based on the value 
+passed into the setter function. This change could involve calculations, or even overwriting the previous value completely. 
+*/
+class Book {
+  constructor(author) {
+    this._author = author;
+  }
+  // getter
+  get writer() {
+    return this._author;
+  }
+  // setter
+  set writer(updatedAuthor) {
+    this._author = updatedAuthor;
+  }
+}
+const novel = new Book("anonymous");
+console.log(novel.writer); // anonymous
+novel.writer = "newAuthor";
+console.log(novel.writer); // newAuthor
+// challenge
+class Thermostat {
+  constructor(fahrenheit) {
+    this.celsius = (5 / 9) * (fahrenheit - 32);
+  }
+  get temperature() {
+    return this.celsius;
+  }
+
+  set temperature(updateTemp) {
+    this.celsius = updateTemp;
+  }
+}
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+temp = thermos.temperature; // 26 in Celsius
+
+/*
+ES6: Create a Module Script
+JavaScript started with a small role to play on an otherwise mostly HTML web. 
+Today, it’s huge, and some websites are built almost entirely with JavaScript. 
+In order to make JavaScript more modular, clean, and maintainable; 
+ES6 introduced a way to easily share code among JavaScript files. 
+This involves exporting parts of a file for use in one or more other files, 
+and importing the parts you need, where you need them. In order to take advantage of this functionality, 
+you need to create a script in your HTML document with a type of module. Here’s an example: */
+<script type="module" src="filename.js"></script>;
+
+/* 
+ES6: Use export to Share a Code Block
+Imagine a file called math_functions.js that contains several functions related to mathematical operations. 
+One of them is stored in a variable, add, that takes in two numbers and returns their sum. 
+You want to use this function in several different JavaScript files. In order to share it with these other files, 
+you first need to export it. */
+export const add = (x, y) => {
+  return x + y;
+};
+// also
+const add = (x, y) => {
+  return x + y;
+};
+
+export { add };
+// When you export a variable or function, you can import it in another file and use it without having to rewrite the code.
+// You can export multiple things by repeating the first example for each thing you want to export,
+// or by placing them all in the export statement of the second example, like this:
+export { add, subtract };
+// challenge
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+};
+
+const lowercaseString = (string) => {
+  return string.toLowerCase();
+};
+
+export { uppercaseString };
+export { lowercaseString };
+
+// ES6: Reuse JavaScript Code Using import, import allows you to choose which parts of a file or module to load.
+import { add } from "./math_functions.js";
+// more than one function imported here:
+import { add, subtract } from "./math_functions.js";
+// challenge
+import { uppercaseString, lowercaseString } from "./string_functions.js";
+uppercaseString("hello");
+lowercaseString("WORLD!");
+
+// ES6: Use * to Import Everything from a File
+import * as myMathModule from "./math_functions.js";
+/* The above import statement will create an object called myMathModule. 
+This is just a variable name, you can name it anything. 
+The object will contain all of the exports from math_functions.js in it, 
+so you can access the functions like you would any other object property. 
+Here's how you can use the add and subtract functions that were imported: */
+import * as stringFunctions from "./string_functions.js";
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+// ES6: Create an Export Fallback with export default
+// Since export default is used to declare a fallback value for a module or file,
+// you can only have one value be a default export in each module or file.
+// Additionally, you cannot use export default with var, let, or const
+// named function
+export default function add(x, y) {
+  return x + y;
+}
+
+// anonymous function
+export default function (x, y) {
+  return x + y;
+}
+// challenge
+export default function subtract(x, y) {
+  return x - y;
+}
+
+// ES6: Import a Default Export
+import add from "./math_functions.js";
+// The syntax differs in one key place. The imported value, add, is not surrounded by curly braces ({}).
+// add here is simply a variable name for whatever the default export of the math_functions.js file is.
+// You can use any name here when importing a default.
+import subtract from "./math_functions.js";
+// Only change code above this line
+
+subtract(7, 4);
+
+// ES6: Create a JavaScript Promise
+/*
+A promise in JavaScript is exactly what it sounds like - you use it to make a promise to do something, usually asynchronously. 
+When the task completes, you either fulfill your promise or fail to do so. 
+Promise is a constructor function, so you need to use the new keyword to create one. 
+It takes a function, as its argument, with two parameters - resolve and reject. 
+These are methods used to determine the outcome of the promise. The syntax looks like this: */
+const myPromise = new Promise((resolve, reject) => {});
+// challenge
+const makeServerRequest = new Promise((resolve, reject) => {});
+
+// ES6: Complete a Promise with resolve and reject
+/* 
+A promise has three states: pending, fulfilled, and rejected. 
+The promise you created in the last challenge is forever stuck in the pending state because you did not add 
+a way to complete the promise. The resolve and reject parameters given to the promise argument are used to do this. 
+resolve is used when you want your promise to succeed, and reject is used when you want it to fail. 
+These are methods that take an argument, as seen below. */
+
+const myPromise = new Promise((resolve, reject) => {
+  if (conditionHere) {
+    resolve("Promise was fulfilled");
+  } else {
+    reject("Promise was rejected");
+  }
+});
+// The example above uses strings for the argument of these functions, but it can really be anything.
+// Often, it might be an object, that you would use data from, to put on your website or elsewhere.
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer represents a response from a server
+  let responseFromServer;
+
+  if (responseFromServer) {
+    resolve("We got the data");
+  } else {
+    reject("Data not received");
+  }
+});
+
+// ES6: Handle a Fulfilled Promise with then
+/*
+Promises are most useful when you have a process that takes an unknown amount of time in your code (i.e. something asynchronous), 
+often a server request. When you make a server request it takes some amount of time, and after it completes you usually want 
+to do something with the response from the server. This can be achieved by using the then method. 
+The then method is executed immediately after your promise is fulfilled with resolve. Here’s an example: */
+myPromise.then((result) => {
+  // do something with the result.
+});
+// challenge
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to true to represent a successful response from a server
+  let responseFromServer = true;
+
+  if (responseFromServer) {
+    resolve("We got the data");
+  } else {
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then((result) => {
+  console.log(result);
+});
+
+// ES6: Handle a Rejected Promise with catch
+/*
+catch is the method used when your promise has been rejected. 
+It is executed immediately after a promise's reject method is called. Here’s the syntax: */
+myPromise.catch((error) => {
+  // do something with the error.
+});
+// challenge
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer is set to false to represent an unsuccessful response from a server
+  let responseFromServer = false;
+
+  if (responseFromServer) {
+    resolve("We got the data");
+  } else {
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then((result) => {
+  console.log(result);
+});
+
+makeServerRequest.catch((error) => {
+  console.log(error);
+});

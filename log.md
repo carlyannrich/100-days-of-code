@@ -81,12 +81,12 @@ Day 16: 12/12/2020
 **Link to work:**
 
 Day 17: 13/12/2020
-**Today's Progress**:
+**Today's Progress**: n/a
 **Thoughts:**
 **Link to work:**
 
 Day 18: 14/12/2020
-**Today's Progress**:
+**Today's Progress**: 63% of ES6 training completed on FCC.
 **Thoughts:**
 **Link to work:**
 

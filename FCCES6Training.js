@@ -326,6 +326,7 @@ const person = {
 };
 
 // Template literal with multi-line and string interpolation
+// Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
 const greeting = `Hello, my name is ${person.name}!
 I am ${person.age} years old.`;
 
@@ -346,3 +347,83 @@ Each list element's text should be one of the array elements from the failure pr
 have a class attribute with the value text-warning. The makeList function should return the array of list item strings.
 
 Use an iterator method (any kind of loop) to get the desired output (shown below). */
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["no-extra-semi", "no-dup-keys"],
+};
+function makeList(arr) {
+  // Only change code below this line
+  const failureItems = [
+    `<li class="text-warning">${result.failure[0]}</li>`,
+    `<li class="text-warning">${result.failure[1]}</li>`,
+    `<li class="text-warning">${result.failure[2]}</li>`,
+  ];
+
+  function checkResult() {
+    failureItems.includes("no-var");
+    failureItems.includes("var-on-top");
+    failureItems.includes("linebreak");
+  }
+  failureItems.forEach(checkResult);
+  // Only change code above this line
+
+  return failureItems;
+}
+
+const failuresList = makeList(result.failure);
+
+// ES6: Write Concise Object Literal Declarations Using Object Property Shorthand
+// change this:
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y,
+});
+// to this: (ES6 provides the syntactic sugar to eliminate the redundancy of having to write x: x.)
+const getMousePosition = (x, y) => ({ x, y });
+// Use object property shorthand with object literals to create and return an object with name, age and gender properties.
+const createPerson = (name, age, gender) => ({
+  name,
+  age,
+  gender,
+});
+
+// ES6: Write Concise Declarative Functions with ES6
+// change this:
+const person = {
+  name: "Taylor",
+  sayHello: function () {
+    return `Hello! My name is ${this.name}.`;
+  },
+};
+// To this with ES6: (You can remove the function keyword and colon altogether when defining functions in objects)
+const person = {
+  name: "Taylor",
+  sayHello() {
+    return `Hello! My name is ${this.name}.`;
+  },
+};
+// challenge
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  },
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
+
+// ES6: Use class Syntax to Define a Constructor Function
+// the class syntax is just syntax, The class syntax simply replaces the constructor function creation
+// From this:
+var SpaceShuttle = function (targetPlanet) {
+  this.targetPlanet = targetPlanet;
+};
+var zeus = new SpaceShuttle("Jupiter");
+// To this in ES6:
+class SpaceShuttle {
+  constructor(targetPlanet) {
+    this.targetPlanet = targetPlanet;
+  }
+}
+const zeus = new SpaceShuttle("Jupiter");

@@ -80,3 +80,9 @@ for (let i = 1; i <= answer; i++) {
     console.log(i);
   }
 }
+
+/*Test Driven Development (TDD) is a phrase you often hear in the dev world. 
+It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. 
+For example, if you want to write a function that adds a couple of numbers, 
+you would first write a test that uses the function and supplies the expected output. 
+Before you write your code the test will fail, and you should be able to know that your code works correctly when the tests pass.*/

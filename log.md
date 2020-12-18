@@ -91,22 +91,22 @@ Day 18: 14/12/2020
 **Link to work:**
 
 Day 19: 15/12/2020
-**Today's Progress**:
+**Today's Progress**: 100% of ES6 Training completed on FCC.
 **Thoughts:**
 **Link to work:**
 
 Day 20: 16/12/2020
-**Today's Progress**:
+**Today's Progress**: The Odin Project foundations training, installed Jasmine for test driven dev.
 **Thoughts:**
 **Link to work:**
 
 Day 21: 17/12/2020
-**Today's Progress**:
+**Today's Progress**: The Odin Project js exercises - repeat string, reverse string, calculator.
 **Thoughts:**
 **Link to work:**
 
 Day 22: 18/12/2020
-**Today's Progress**:
+**Today's Progress**: The Odin Project js exercises - fibonacci,
 **Thoughts:**
 **Link to work:**
 

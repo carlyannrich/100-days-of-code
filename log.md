@@ -106,76 +106,78 @@ Day 21: 17/12/2020
 **Link to work:**
 
 Day 22: 18/12/2020
-**Today's Progress**: The Odin Project js exercises - fibonacci,
+**Today's Progress**: The Odin Project js exercises - fibonacci, findTheOldest.
 **Thoughts:**
 **Link to work:**
 
 Day 23: 19/12/2020
-**Today's Progress**:
+**Today's Progress**: The Odin Project js exercises - getTheTitles, helloWorld.
 **Thoughts:**
 **Link to work:**
 
 Day 24: 20/12/2020
+**Today's Progress**: The Odin Project js exercises - leapYears, palindromes.
+**Thoughts:**
+**Link to work:**
+
+n/a very ill from 21-31/12/2020.
+
+Day 25: 1/1/2021
+**Today's Progress**: Read through the React Handbook on Free Code Camp.
+**Thoughts:**
+**Link to work:**
+
+Day 26: 2/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 25: 21/12/2020
+Day 27: 3/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 26: 22/12/2020
+Day 28: 4/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 27: 23/12/2020
+Day 29: 5/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 28: 24/12/2020
+Day 30: 6/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 29: 25/12/2020
+Day 31: 7/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 30: 26/12/2020
+Day 32: 8/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 31: 27/12/2020
+Day 33: 9/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 32: 28/12/2020
+Day 34: 10/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 33: 29/12/2020
+Day 35: 11/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**
 
-Day 34: 30/12/2020
-**Today's Progress**:
-**Thoughts:**
-**Link to work:**
-
-Day 35: 31/12/2020
-**Today's Progress**:
-**Thoughts:**
-**Link to work:**
-
-Day 36: 01/01/2021
+Day 36: 12/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**

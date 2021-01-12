@@ -128,56 +128,126 @@ Day 25: 1/1/2021
 **Link to work:**
 
 Day 26: 2/1/2021
-**Today's Progress**:
+**Today's Progress**: Setting up react create-react-app for Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 27: 3/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 28: 4/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 29: 5/1/2021
-**Today's Progress**:
+**Today's Progress**: Break reading up on React/js for Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 30: 6/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 31: 7/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 32: 8/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 33: 9/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 34: 10/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 35: 11/1/2021
-**Today's Progress**:
+**Today's Progress**: Manuscript Meme generator
 **Thoughts:**
 **Link to work:**
 
 Day 36: 12/1/2021
+**Today's Progress**: Started creating the Conway's the Game of Life in a new react repo
+**Thoughts:**
+**Link to work:**
+
+Day 37: 13/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 38: 14/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 39: 15/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 40: 16/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 41: 17/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 42: 18/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 43: 19/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 44: 20/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 45: 21/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 46: 22/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 47: 23/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 48: 24/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 49: 25/1/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 50: 26/1/2021
 **Today's Progress**:
 **Thoughts:**
 **Link to work:**

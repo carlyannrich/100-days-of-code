@@ -183,71 +183,78 @@ Day 36: 12/1/2021
 **Link to work:**
 
 Day 37: 13/1/2021
-**Today's Progress**:
+**Today's Progress**: Carried on with Game of Life
 **Thoughts:**
 **Link to work:**
 
 Day 38: 14/1/2021
-**Today's Progress**:
+**Today's Progress**: Carried on with Game of Life
 **Thoughts:**
 **Link to work:**
 
 Day 39: 15/1/2021
-**Today's Progress**:
+**Today's Progress**: Reading through previous learning
 **Thoughts:**
 **Link to work:**
 
 Day 40: 16/1/2021
-**Today's Progress**:
+**Today's Progress**: Reading through previous learning
 **Thoughts:**
 **Link to work:**
 
 Day 41: 17/1/2021
-**Today's Progress**:
+**Today's Progress**: Reading through previous learning
 **Thoughts:**
 **Link to work:**
 
 Day 42: 18/1/2021
-**Today's Progress**:
+**Today's Progress**: Game of Life got board and controls working - nearly got logic
 **Thoughts:**
 **Link to work:**
 
 Day 43: 19/1/2021
-**Today's Progress**:
+**Today's Progress**: Game of Life working!
 **Thoughts:**
 **Link to work:**
 
 Day 44: 20/1/2021
-**Today's Progress**:
+**Today's Progress**: Deployed to github pages
 **Thoughts:**
-**Link to work:**
+**Link to work:** https://carlyannrich.github.io/theGameOfLife-react/
 
 Day 45: 21/1/2021
-**Today's Progress**:
+**Today's Progress**: Completed HTML and CSS tutorials on freecodecamp
 **Thoughts:**
 **Link to work:**
 
 Day 46: 22/1/2021
-**Today's Progress**:
+**Today's Progress**: Nearly finished react tic tac toe tutorial
 **Thoughts:**
 **Link to work:**
 
 Day 47: 23/1/2021
-**Today's Progress**:
+**Today's Progress**: finished the tic tac toe game in react!
 **Thoughts:**
-**Link to work:**
+**Link to work:** https://github.com/carlyannrich/tictactoe-react
 
 Day 48: 24/1/2021
-**Today's Progress**:
+**Today's Progress**: Began my portflio in html and css
 **Thoughts:**
 **Link to work:**
 
-Day 49: 25/1/2021
-**Today's Progress**:
+No WIFI two days!
+
+Day 49: 27/1/2021
+**Today's Progress**: added 'art' page and created animated buttons to portfolio
 **Thoughts:**
 **Link to work:**
 
-Day 50: 26/1/2021
-**Today's Progress**:
+Day 50: 28/1/2021
+**Today's Progress**: added 'blog' and 'contact' pages to portfolio
+**Thoughts:**
+**Link to work:**
+
+Day 51: 29/1/2021
+**Today's Progress**: played around with a-frame!
 **Thoughts:**
 **Link to work:**

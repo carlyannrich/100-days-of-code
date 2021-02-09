@@ -258,3 +258,85 @@ Day 51: 29/1/2021
 **Today's Progress**: played around with a-frame!
 **Thoughts:**
 **Link to work:**
+
+Day 52: 30/1/2021
+**Today's Progress**: Followed along with http://learnstorybook.com taskbox tutorial
+**Thoughts:**
+**Link to work:**
+
+Day 53: 31/1/2021
+**Today's Progress**: started building my atomic components in storybook for my portfolio
+**Thoughts:**
+**Link to work:**
+
+Day 54: 1/2/2021
+**Today's Progress**: still adding my components to storybook
+**Thoughts:**
+**Link to work:**
+
+Day 55: 2/2/2021
+**Today's Progress**: installed the a11y add-on which uses aXe to check accessibility - really great to test for any accessibility issues!
+**Thoughts:**
+**Link to work:**
+
+Day 56-59: 3-6/2/2021
+**Today's Progress**: created 6 new components and working on my home page now within Storybook, then importing straight into my #React app.
+
+Also, using branches properly instead of pushing straight to main! (pretending that I'm working with other people Smiling face with open mouth and tightly-closed eyes)
+**Thoughts:**
+**Link to work:**
+
+Day 60: 7/2/2021
+**Today's Progress**: finished off my menu button and footer components in #Storybook, and also finished creating my homepage in #React app.
+**Thoughts:**
+**Link to work:**
+
+Day 61: 8/2/2021
+**Today's Progress**: started changing components to styled-components
+**Thoughts:**
+**Link to work:**
+
+Day 62: 9/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 63: 10/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 64: 11/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 65: 12/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 66: 13/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 67: 14/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 68: 15/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 69: 16/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**
+
+Day 70: 17/2/2021
+**Today's Progress**:
+**Thoughts:**
+**Link to work:**

@@ -297,46 +297,123 @@ Day 61: 8/2/2021
 **Link to work:**
 
 Day 62: 9/2/2021
-**Today's Progress**:
+**Today's Progress**: building components for my react portfolio
 **Thoughts:**
 **Link to work:**
 
 Day 63: 10/2/2021
-**Today's Progress**:
+**Today's Progress**: building components for my react portfolio
 **Thoughts:**
 **Link to work:**
 
 Day 64: 11/2/2021
-**Today's Progress**:
+**Today's Progress**: building components for my react portfolio
 **Thoughts:**
 **Link to work:**
 
 Day 65: 12/2/2021
-**Today's Progress**:
+**Today's Progress**: building components for my react portfolio
 **Thoughts:**
 **Link to work:**
 
 Day 66: 13/2/2021
-**Today's Progress**:
+**Today's Progress**: adding in media queries
 **Thoughts:**
 **Link to work:**
 
 Day 67: 14/2/2021
-**Today's Progress**:
+**Today's Progress**: created homepage for portfolio
 **Thoughts:**
 **Link to work:**
 
 Day 68: 15/2/2021
-**Today's Progress**:
+**Today's Progress**: started setting up react-router
 **Thoughts:**
 **Link to work:**
 
-Day 69: 16/2/2021
-**Today's Progress**:
+Day 69: 18/2/2021
+**Today's Progress**: created a menu component
 **Thoughts:**
 **Link to work:**
 
-Day 70: 17/2/2021
-**Today's Progress**:
+Day 70: 19/2/2021
+**Today's Progress**: created navigation 
 **Thoughts:**
 **Link to work:**
+
+Day 71: 20/2/2021
+**Today's Progress**: finished navigation 
+**Thoughts:**
+**Link to work:**
+
+Day 72: 21/2/2021
+**Today's Progress**: changed some functionality in components
+**Thoughts:**
+**Link to work:**
+
+Day 73: 3/3/2021
+**Today's Progress**: Created all pages and set up react-router for all
+**Thoughts:**
+**Link to work:**
+
+Day 74: 4/3/2021
+**Today's Progress**: added more media queries for styling
+**Thoughts:**
+**Link to work:**
+
+Day 75: 5/3/2021
+**Today's Progress**: Looking through examples on awwwards.com
+**Thoughts:**
+**Link to work:**
+
+Day 76: 6/3/2021
+**Today's Progress**: continuing reading js articles on animation libraries
+**Thoughts:**
+**Link to work:**
+
+Day 77: 7/3/2021
+**Today's Progress**: installed react-spring
+**Thoughts:**
+**Link to work:**
+
+Day 78: 8/3/2021
+**Today's Progress**: playing around with react-spring
+**Thoughts:**
+**Link to work:**
+
+Day 79: 9/3/2021
+**Today's Progress**: playing around with react-spring
+**Thoughts:**
+**Link to work:**
+
+Day 80: 10/3/2021
+**Today's Progress**: FCC JavaScript Algorithms and Data Structures tutorial
+**Thoughts:**
+**Link to work:**
+
+Day 81: 11/3/2021
+**Today's Progress**: FCC JavaScript Algorithms and Data Structures tutorial
+**Thoughts:**
+**Link to work:**
+
+Day 82: 12/3/2021
+**Today's Progress**: FCC JavaScript 'Regular Expressions' tutorial
+**Thoughts:**
+**Link to work:**
+
+Day 83-97: 12/3/2021-9/4/2021
+**Today's Progress**: 4 weeks of helping with a group project, using Vercel hosting, next.js, GraphQL and contentful CMS. Only helping slightly with the styling, accessibility etc as I was also doing content and design! 
+**Thoughts:**
+**Link to work:** https://pixelmyths.co.uk
+
+Few weeks break after COVID vaccine and for my birthday!
+
+Day 98-102: 30/4/2021-4/5/2021 
+**Today's Progress**: fe-tech-test styling from the design completed
+**Thoughts:**
+**Link to work:** https://github.com/carlyannrich/fe-tech-test
+
+Day 103-: 5/5/2021-
+**Today's Progress**: fe-tech-test data from open air API
+**Thoughts:**
+**Link to work:** https://github.com/carlyannrich/fe-tech-test
